@@ -1,5 +1,5 @@
 #!/bin/bash
 trap "echo ' Trapped Ctrl-C'" SIGHUP
-source venv/bin/activate
+source /bin/activate
 python3  main.py
 
